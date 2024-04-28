@@ -19,14 +19,37 @@ body {
 .Menu {
     display: flex;
     justify-content: center;
+   
     
 }
 .text3 {
     display:flex ;
     justify-content: center;
+
 }
 .box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10px;
+    /* flex-wrap: wrap; */
+   
+}
+.text3 {
+    font-size: 40px;
+    color: aqua;
+}
+.Menu {
+    font-size: 25px;
+    margin: auto;
+}
+.btn {
+    margin-right: 25px;
+}
+
+.Menu a {
+    text-decoration: none;
+    background-color: rgb(191, 124, 197);
+    padding: 6px;
+   
 }
