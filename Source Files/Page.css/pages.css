@@ -2,25 +2,20 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 
 body {
     width: 100%;
     height: 100%;
 }
-
 .text3 {
     font-family: "Oswald", sans-serif;
      font-optical-sizing: auto;
-     
 }
 
 .Menu {
     display: flex;
     justify-content: center;
-   
-    
 }
 .text3 {
     display:flex ;
@@ -29,11 +24,10 @@ body {
 }
 .box {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-top: 10px;
-    /* flex-wrap: wrap; */
-   
+    flex-wrap: wrap;
 }
 .text3 {
     font-size: 40px;
@@ -50,6 +44,15 @@ body {
 .Menu a {
     text-decoration: none;
     background-color: rgb(191, 124, 197);
-    padding: 6px;
-   
+    padding: 6px;  
+}
+
+.store-item {
+    width: 300px;
+    padding: 1rem;
+}
+.store-item img {
+    width: 100%;
+
+    
 }
