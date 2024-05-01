@@ -2,10 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 body {
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
 .text3 {
@@ -16,6 +17,7 @@ body {
 .Menu {
     display: flex;
     justify-content: center;
+    
 }
 .text3 {
     display:flex ;
@@ -53,6 +55,7 @@ body {
 }
 .store-item img {
     width: 100%;
+    border: 2px solid green;
 
     
 }
